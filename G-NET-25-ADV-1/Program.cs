@@ -49,6 +49,14 @@ namespace G_NET_25_ADV_1
             //Console.WriteLine($"x = {x}, y = {y}"); //x = 20, y = 10
             #endregion
 
+            #region Q5:
+         
+            //int maxInt = Utilities.FindMax(10, 20); 
+            //string maxStr = Utilities.FindMax("A", "B"); 
+            //Console.WriteLine($"The max int is: {maxInt}");//  20
+            //Console.WriteLine($"The max string is: {maxStr}");// B
+            #endregion
+
 
 
         }
