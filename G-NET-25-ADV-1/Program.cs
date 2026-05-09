@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Diagnostics.Contracts;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace G_NET_25_ADV_1
 {
@@ -50,11 +51,24 @@ namespace G_NET_25_ADV_1
             #endregion
 
             #region Q5:
-         
+
             //int maxInt = Utilities.FindMax(10, 20); 
             //string maxStr = Utilities.FindMax("A", "B"); 
             //Console.WriteLine($"The max int is: {maxInt}");//  20
             //Console.WriteLine($"The max string is: {maxStr}");// B
+            #endregion
+
+            #region Q6:
+            //Generic Interface:
+            //  A generic interface is an interface that defines a contract with one or more type parameters.Classes that implement a generic interface must specify the actual data types to fulfill that contract.
+            //They are widely used in C# for collections (like IEnumerable<T>) and patterns that handle multiple data models with the same set of operations.
+            //ProductRepository repo = new ProductRepository();
+
+            //foreach (var product in repo.GetAll())
+            //{
+            //    Console.WriteLine($"ID: {product.Id}, Name: {product.Name}");
+            //}
+
             #endregion
 
 
