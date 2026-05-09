@@ -1,4 +1,6 @@
-﻿namespace G_NET_25_ADV_1
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace G_NET_25_ADV_1
 {
     internal class Program
     {
@@ -34,6 +36,17 @@
             //Pair<string,bool> Pair02 = new Pair<string,bool>("Open?",true);
             //Console.WriteLine($"Pair01:{Pair01}");
             //Console.WriteLine($"Pair02:{Pair02}");
+            #endregion
+
+            #region Q4:
+
+            //Generic Method: 
+            //  A generic method is a method that is declared with type parameters for its return type or its parameters.
+            //  It allows the method to work with any data type while maintaining type safety. These methods can exist within both generic and non - generic classes.
+            //  Often, the compiler can infer the type argument based on the data passed to the method.
+            //int x = 10, y = 20;
+            //Utilities.Swap(ref x, ref y); 
+            //Console.WriteLine($"x = {x}, y = {y}"); //x = 20, y = 10
             #endregion
 
 
