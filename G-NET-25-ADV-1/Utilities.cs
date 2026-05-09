@@ -14,6 +14,10 @@ namespace G_NET_25_ADV_1
             a = b;
             b = temp;
         }
+        public static T FindMax<T>(T a, T b) where T : IComparable<T>
+        {
+            return a.CompareTo(b) > 0 ? a : b;
+        }
     }
 
 }
