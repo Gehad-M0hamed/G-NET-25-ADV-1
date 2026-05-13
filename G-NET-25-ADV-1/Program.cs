@@ -80,8 +80,20 @@ namespace G_NET_25_ADV_1
             #endregion
 
             #region Q8:
+            //The class constraint specifies that the type argument <T> must be a reference type. This includes any class, interface, delegate, or array type.
+            //It ensures that <T> cannot be a value type, such as int, bool, or a struct.
+            //Cache<string> messageCache = new Cache<string>();
+            //messageCache.Set("Hello from Route!");
+            //string? data = messageCache.Get();
+            //Console.WriteLine($"Cached Data: {data}");
+            //string myString = "Route";
+            //Cache<string> anotherCache = new Cache<string>();
+            //anotherCache.Set(myString);
 
+            //Console.WriteLine($"Is Same Reference? {anotherCache.IsSame(myString)}");
             #endregion
+
+
 
 
 
