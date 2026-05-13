@@ -68,6 +68,13 @@ namespace G_NET_25_ADV_1
             //{
             //    Console.WriteLine($"ID: {product.Id}, Name: {product.Name}");
             //}
+            #endregion
+
+            #region Q7:
+            //ValueContainer<int> IntContainer = new ValueContainer<int>(44);
+            //ValueContainer<double> DoubleContainer = new ValueContainer<double>(4.44);
+            //Console.WriteLine($"int:{IntContainer.Value}");
+            //Console.WriteLine($"double:{DoubleContainer.Value}");
 
             #endregion
 
