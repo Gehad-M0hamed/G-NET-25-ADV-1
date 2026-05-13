@@ -71,10 +71,15 @@ namespace G_NET_25_ADV_1
             #endregion
 
             #region Q7:
+            //The struct constraint restricts the type parameter <T> to value types only.
+            //This ensures that <T> cannot be a reference type (like a class or string) and cannot be null (unless explicitly declared as nullable).
             //ValueContainer<int> IntContainer = new ValueContainer<int>(44);
             //ValueContainer<double> DoubleContainer = new ValueContainer<double>(4.44);
             //Console.WriteLine($"int:{IntContainer.Value}");
             //Console.WriteLine($"double:{DoubleContainer.Value}");
+            #endregion
+
+            #region Q8:
 
             #endregion
 
