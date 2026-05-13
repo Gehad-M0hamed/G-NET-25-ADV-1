@@ -93,6 +93,17 @@ namespace G_NET_25_ADV_1
             //Console.WriteLine($"Is Same Reference? {anotherCache.IsSame(myString)}");
             #endregion
 
+            #region Q9:
+            //he new() constraint is a generic constraint that specifies that any type argument used for <T> must have a public,
+            //parameterless constructor. This allows you to create a new instance of the type $T$ directly inside your generic class or method using the syntax new T().
+            //Factory<Person> PersonFactory= new Factory<Person>();
+            //Person P1 = PersonFactory.Create();
+            //P1.Name = "Ali";
+            //P1.Age = 20;
+            //Console.WriteLine($"Created:{P1}");
+
+            #endregion
+
 
 
 
