@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics.Contracts;
+using System.Reflection.Metadata;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace G_NET_25_ADV_1
@@ -125,19 +126,24 @@ namespace G_NET_25_ADV_1
 
             #region Q12:
             //list them sequentially after the where T: clause, separated by commas.
-        //    public class DataMapper<TSource, TDest>
-        //    where TSource : class
-        //    where TDest : class, new()
-        //{
-        //    public TDest Map(TSource source)
-        //    {
-        //        TDest destination = new TDest();
+            //    public class DataMapper<TSource, TDest>
+            //    where TSource : class
+            //    where TDest : class, new()
+            //{
+            //    public TDest Map(TSource source)
+            //    {
+            //        TDest destination = new TDest();
 
             //        return destination;
             //    }
             //}
 
             #endregion
-    }
+
+            #region Q13:
+            //The default keyword in generics is used to get the default value of a type parameter T at runtime.
+
+            #endregion
+        }
     }
 }
