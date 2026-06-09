@@ -144,6 +144,27 @@ namespace G_NET_25_ADV_1
             //The default keyword in generics is used to get the default value of a type parameter T at runtime.
 
             #endregion
+
+            #region Q14:
+
+            //var safeInts = new SafeList<int>();
+            //safeInts.Add(10);
+            //safeInts.Add(20);
+
+            //Console.WriteLine($"Valid Index (1): {safeInts[1]}");
+            //Console.WriteLine($"Invalid Index (5): {safeInts[5]}");
+
+            //var safeStrings = new SafeList<string>();
+            //safeStrings.Add("Route");
+
+            //Console.WriteLine($"Valid Index (0): {safeStrings[0]}");
+            //Console.WriteLine($"Invalid Index (2) is null: {safeStrings[2] == null}");
+
+
+            #endregion
         }
     }
+
 }
+    
+
