@@ -191,11 +191,38 @@ namespace G_NET_25_ADV_1
             //Each closed generic type has its own copy of static fields.List<int> and List<string> have separate static data!
             #endregion
 
+            #region Q19:
+            //Generic classes can inherit from other generic or non - generic classes.Several patterns are possible.
+        // *Pattern 1: Inherit and Pass the Type Parameter(Open Generic Inheritance)
+        //     The derived class remains generic, and it forwards its own type parameter directly to the base class.
+
+
+        //public class Repository<T> { /* Base implementation */ }
+
+        //public class CachedRepository<T> : Repository<T> { /* ... */ }
+//        *Pattern 2: Inherit with a Concrete Type(Closed Generic Inheritance)
+//         The derived class is non-generic because it specifies a fixed, concrete data type for the generic base class.
+
+//public class Repository<T> { /* Base implementation */ }
+
+//        public class UserRepository : Repository<User> { /* ... */ }
+
+        //*Pattern 3: Add New Type Parameters
+        // The derived class can introduce its own unique type parameters while still satisfying the base class requirements.
+
+
+        //public class Repository<TEntity> { /* Base implementation */ }
+
+        //public class KeyedRepository<TKey, TEntity> : Repository<TEntity> { /* ... */ }
+
+        #endregion
 
 
 
 
-        }
+
+
+    }
     }
 
 }
