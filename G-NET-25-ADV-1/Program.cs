@@ -162,6 +162,11 @@ namespace G_NET_25_ADV_1
 
 
             #endregion
+
+            #region Q15:
+
+            #endregion
+
         }
     }
 
