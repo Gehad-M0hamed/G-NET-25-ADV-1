@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.Contracts;
+﻿using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace G_NET_25_ADV_1
@@ -122,9 +123,21 @@ namespace G_NET_25_ADV_1
 
             #endregion
 
+            #region Q12:
+            //list them sequentially after the where T: clause, separated by commas.
+        //    public class DataMapper<TSource, TDest>
+        //    where TSource : class
+        //    where TDest : class, new()
+        //{
+        //    public TDest Map(TSource source)
+        //    {
+        //        TDest destination = new TDest();
 
+            //        return destination;
+            //    }
+            //}
 
-
-        }
+            #endregion
+    }
     }
 }
