@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Reflection.Metadata;
+using System.Runtime.Intrinsics.X86;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace G_NET_25_ADV_1
@@ -164,7 +165,7 @@ namespace G_NET_25_ADV_1
             #endregion
 
             #region Q15:
-
+            //Covariance allows you to use a more derived type than originally specified. Marked with out keyword.T can only appear in output positions.
             #endregion
 
         }
