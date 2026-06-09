@@ -106,13 +106,19 @@ namespace G_NET_25_ADV_1
             #region Q10:
             //An interface constraint specifies that the type argument <T> must implement a particular interface.
             //This is one of the most powerful constraints because it allows the generic code to call methods, properties, or events defined by that interface on the type parameter.
-            //Without this constraint, the compiler treats $T$ as a basic object and will not allow you to call specific members belonging to a custom interface.
+            //Without this constraint, the compiler treats <T> as a basic object and will not allow you to call specific members belonging to a custom interface.
             //int[] numbers = { 5, 4, 7, 8, 1, 2 };
             //string[] names = { "sara", "ali", "heba" };
             //Console.WriteLine($"max:{ComparableHelper.FindMax(numbers)}");
             //Console.WriteLine($"min:{ComparableHelper.FindMin(numbers)}");
             //Console.WriteLine($"max:{ComparableHelper.FindMax(names)}");
             //Console.WriteLine($"min:{ComparableHelper.FindMin(names)}");
+
+            #endregion
+
+            #region Q11:
+            //The base class constraint specifies that a type argument must inherit from a specific base class.
+            //This allows the generic class or method to access all public and protected members of that base class directly on the type parameter <T>.
 
             #endregion
 
