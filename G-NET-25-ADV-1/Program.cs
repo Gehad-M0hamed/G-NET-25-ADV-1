@@ -186,10 +186,14 @@ namespace G_NET_25_ADV_1
             //*Example: Action<in T>
             //*Think of:Consumer of T
             #endregion
-             
- 	
- 
-   
+
+            #region Q18:
+            //Each closed generic type has its own copy of static fields.List<int> and List<string> have separate static data!
+            #endregion
+
+
+
+
 
         }
     }
