@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Data.Common;
 using System.Diagnostics.Contracts;
 using System.Reflection.Metadata;
 using System.Runtime.Intrinsics.X86;
@@ -171,6 +172,24 @@ namespace G_NET_25_ADV_1
             #region Q16:
             //Contravariance allows you to use a less derived type than originally specified. Marked with in keyword.T can only appear in input positions.
             #endregion
+
+            #region Q17:
+            //Covariance(out)
+            //* Direction:Derived → Base
+            //*T Position:Output only(return)
+            //*Example:IEnumerable<out T> 
+            //*Think of:as Producer of T 
+
+            //Contravariance(in)
+            //* Direction:Base → Derived
+            //*T Position:Input only(parameter)
+            //*Example: Action<in T>
+            //*Think of:Consumer of T
+            #endregion
+             
+ 	
+ 
+   
 
         }
     }
